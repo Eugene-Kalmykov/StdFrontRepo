@@ -57,11 +57,24 @@
                     break
             }
             alert (`ваш ответ: ${c}`)*/
-            let r = prompt("назови число");
+            /*let r = prompt("назови число");
             if (r > 20) {
                 alert("больше 20");
             }
-            alert ("меньше 20");
+            alert ("меньше 20");*/
+            let arr = new Array ( 1, 2, 3, 4, 5, 22, 7, 8, 9, 10 );
+            let arr2 = [];
+            for ( let i = 0 ; i < arr.length ; i++) {
+                if (arr[i] % 2 === 0){
+                alert (arr[i]);
+                arr2.push (arr[i]);
+
+                }  
+            }
+
+            console.log (arr2);
+
+
         </script>
     </body>
 </html>
