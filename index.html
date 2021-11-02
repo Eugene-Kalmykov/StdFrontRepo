@@ -62,7 +62,7 @@
                 alert("больше 20");
             }
             alert ("меньше 20");*/
-            let arr = new Array ( 1, 2, 3, 4, 5, 22, 7, 8, 9, 10 );
+            /*let arr = new Array ( 1, 2, 3, 4, 5, 22, 7, 8, 9, 10 );
             let arr2 = [];
             for ( let i = 0 ; i < arr.length ; i++) {
                 if (arr[i] % 2 === 0){
@@ -71,9 +71,39 @@
 
                 }  
             }
-
+            //
             console.log (arr2);
+            let rebase
+            */
 
+
+            //const array = [ "1", "2", ];
+            //array.lenght > 0 ? alert("more than 0") : alert("less than 0");
+
+            function testCal (first, second, znac){
+                switch (znac) {
+                case "+":
+                    resCal = first + second;
+                    break
+                 case "-":
+                    resCal = first - second;
+                    break
+                case "/":
+                    resCal = first / second;
+                    break
+                case "*":
+                    resCal = first * second;
+                    break
+                case "%":
+                    resCal = first % second;
+                    break
+                
+                
+                }
+                return resCal;
+            }
+            
+            alert (testCal(12, 4, "/"));
 
         </script>
     </body>
