@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <script>
-        /*
+      /*
         function fact2(n) {
             if (n <= 1) return 1;
             return n * fact2 (n - 1);
@@ -16,11 +17,80 @@
         }
         alert (fact2(3))
         */
-        let fact3 =(n) =>{
+      /*let fact3 =(n) =>{
             if (n <= 1) return 1;
             return n * fact3 (n - 1);
         }
         alert (fact3(2));
+        */
+      //const array = [1];
+      /*array[0];
+ 
+        const obj = { name: "Anatolii", };
+         obj[name];
+         obj.name
+ */
+      //const arr = ["777", "444", "333"]
+      //arr.forEach((item, index, array) => alert(`${item} №${index} из массива${array}`))
+        /*
+      ask("1", yes, no);
+     
+      function ask(question) {
+        if(question) {
+           return yes();
+        }
+        else no();
+         
+      }
+
+      const yes = function () {
+        alert( "есть символ" );
+
+      }
+
+      const no = function () {
+        alert( "нет символа" );
+
+      }
+*/
+/*
+    let homeWork = (arrayHw = [1, 2, 3]) {
+        arrayHw.forEach((item, index, array) => alert(array));
+          
+
+    }  
+    homeWork( [3, 4, 5]);
+    */
+   //const array = [ "123", null, undefined ];
+   //const array2 = array.filter((item) => Boolean(item) == true );
+
+   //const a = "123";
+   //const b = true;
+//console.log(array2);
+/*
+   const array = [ "123", null, undefined ];
+   
+   let filterFunc = (element) => {
+    if (element) {
+        return element;
+    }
+
+   }
+   
+   alert(array.filter(filterFunc));
+   */
+      
+   const array = [ "123", null, undefined, "374637", 12, "ok" ];
+   
+   //const array2 = array.filter((item) => item === String );
+   let filterFunc = (item) => {
+    if (typeof item === "string") ;
+        return item;
+   }
+
+   alert(array.filter(filterFunc));
+
+
     </script>
-</body>
+  </body>
 </html>
