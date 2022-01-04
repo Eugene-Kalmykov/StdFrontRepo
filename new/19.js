@@ -1,5 +1,5 @@
 //document.cookie = "user=111";
-
+/*
 import {sum} from './script.js';
 alert(sum(1, 2));
 
@@ -13,3 +13,15 @@ const {name, age} = obj; // ключи дожны совпадать
 //https://trello.com/b/8NYYVvGQ/weather
 //https://10minutemail.com/
 console.log(age);
+*/
+const func = ()=>{
+    try{
+        const a= 1;
+        throw new Error('no valid');
+
+    }catch(error){
+        console.log (error.message)
+
+    }
+}
+func();
