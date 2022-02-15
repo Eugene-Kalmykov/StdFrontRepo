@@ -1,5 +1,5 @@
 //lesson #16
-/*
+
 const obj = {
 
     name: 'ivan',
@@ -11,7 +11,7 @@ localStorage.setItem('key' , "123");
 
 const value = localStorage.getItem('obj'); // достаем по ключю
 console.log(JSON.parse(value));
-*/
+
 
 
 
